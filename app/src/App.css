@@ -1,0 +1,179 @@
+.App {
+  background-color: #FFFFFF;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-bar{
+  background-color: #F9F9F9;
+  box-shadow: 0px 3px 6px #112D4612;
+  opacity: 1;
+}
+
+.brand-logo{
+font-family: 'LatoBold';
+font-size: 23px;
+letter-spacing: 2px;
+color: #112D46;
+opacity: 1;
+margin-top: 15px;
+}
+
+.main-menu {
+  text-align: right;
+  margin-top: 22px;
+}
+
+.ant-dropdown-menu{
+  background-color: red;
+}
+
+.main-menu a{
+  margin-left: 30px;
+  color: #707070;
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-family: 'LatoBold';
+  text-transform: uppercase;
+}
+
+.main-menu a:hover{
+  color: #112D46;
+}
+
+.dropdown-menu-items a {
+  font-size: 11px;
+  color: #9D9D9D42;
+  font-family:'LatoNormal' ;
+}
+
+.nav-icons{
+  text-align: right;
+  margin-top: 20px;
+}
+
+.nav-icons .cart-icon{
+  width: 30px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.nav-icons .account-icon{
+  width: 30px;
+  height: 23px;
+  margin-left: 20px;
+}
+
+.footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  opacity: 1;
+  background: #F9F9F9 0% 0% no-repeat padding-box;
+}
+
+.container{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.footer-container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-section-1{
+  margin-top: 30px;
+font-family: 'LatoSemiBold';
+letter-spacing: 2.5px;
+font-size: 10px;
+color: #605E5E;
+opacity: 1;
+}
+
+.footer-section-1 .social-icon-facebook{
+  height: 15px;
+}
+
+.footer-section-1 .social-icons{
+  height: 15px;
+  margin-left: 20px;
+}
+
+.get-inspiration{
+ display: flex;
+ font-family: 'LatoNormal';
+}
+
+.get-inspiration Input {
+border: 1px solid #605E5E;
+border-top-left-radius: 27px;
+border-bottom-left-radius: 27px;
+opacity: 1;
+width: 160px;
+}
+
+.get-inspiration Input::placeholder {
+  letter-spacing: 1.63px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 10px;
+}
+
+.get-inspiration Button{
+  background: #112D46 0% 0% no-repeat padding-box;
+border: 1px solid #605E5E;
+border-radius: 0px 27px 27px 0px;
+opacity: 1;
+letter-spacing: 2.13px;
+color: #F9F9F9;
+text-transform: uppercase;
+opacity: 1;
+font-size: 10px;
+width: 110px;
+}
+
+.footer-credits{
+  background-color: #112D46;
+
+}
+
+.footer-credits p{
+  letter-spacing: 2.5px;
+  color: #EBEBEB;
+}
+
