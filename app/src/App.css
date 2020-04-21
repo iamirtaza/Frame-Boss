@@ -98,7 +98,7 @@ margin-top: 15px;
 }
 
 .footer{
-  position: absolute;
+  position: relative;
   width: 100%;
   bottom: 0;
   opacity: 1;
@@ -115,7 +115,7 @@ margin-top: 15px;
   margin-right: 10%;
 }
 
-.footer-section-1{
+.footer-section{
   margin-top: 30px;
 font-family: 'LatoSemiBold';
 letter-spacing: 2.5px;
@@ -124,11 +124,11 @@ color: #605E5E;
 opacity: 1;
 }
 
-.footer-section-1 .social-icon-facebook{
+.footer-section .social-icon-facebook{
   height: 15px;
 }
 
-.footer-section-1 .social-icons{
+.footer-section .social-icons{
   height: 15px;
   margin-left: 20px;
 }
@@ -173,7 +173,56 @@ width: 110px;
 }
 
 .footer-credits p{
+  
   letter-spacing: 2.5px;
   color: #EBEBEB;
+  margin-top: 12px;
+  text-transform: capitalize;
+  opacity: 1;
+  font-family: 'LatoNormal';
+  font-size: 12px;
 }
 
+.section-1{
+  margin-top: 50px;
+}
+
+.section-1 h1{
+font-family: 'LatoBold';
+letter-spacing: 3.48px;
+color: #112D46;
+text-transform: uppercase;
+opacity: 1;
+font-size: 30px;
+margin-top: 80px;
+}
+
+.section-1 p {
+letter-spacing: 0.25px;
+color: #605E5E;
+text-transform: lowercase;
+opacity: 1;
+font-family: 'LatoNormal';
+width: 60%;
+border-left: 3px solid #112d46;
+padding-left: 10px;
+font-size: 13px;
+}
+
+.section-1 Button{
+  border: 1px solid #112d46;
+  border-radius:27px;
+  letter-spacing: 2.13px;
+  color: #112d46;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 10px;
+  width: 170px;
+  font-family: 'LatoSemiBold';
+}
+
+.section-1 Button:hover{
+background-color: #112d46;
+border: 1px solid #112d46;
+color: white;
+}

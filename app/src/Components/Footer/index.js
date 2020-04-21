@@ -11,7 +11,7 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <Row className="footer-container">
-                    <Col className="footer-section-1" span={8}>
+                    <Col className="footer-section" span={8}>
                         <p>Get The App</p>
                         <p>Follow Us</p>
                         <div >
@@ -26,30 +26,30 @@ class Footer extends React.Component {
                         <Button>Submit</Button>
                         </div>
                     </Col>
-                    <Col className="footer-section-1" span={3}>
+                    <Col className="footer-section" span={3}>
                         <p>How It Works</p>
                         <p>Press</p>
                         <p>For Art & Trade</p>
                         <p>The Shop</p>
                     </Col>
-                    <Col className="footer-section-1" span={3}>
+                    <Col className="footer-section" span={3}>
                         <p>FAQ</p>
                         <p>For Buisness</p>
                         <p>Company</p>
                         <p>Careers</p>
                     </Col>
-                    <Col className="footer-section-1" span={3}>
+                    <Col className="footer-section" span={3}>
                         <p>Stores</p>
                         <p>Pricing</p>
                         <p>Reviews</p>
                         <p>Design Services</p>
                     </Col>
-                    <Col className="footer-section-1" span={3}>
+                    <Col className="footer-section" span={3}>
                         <p>About Us</p>
                         <p>Gift Card</p>
                         <p>Contact Us</p>
                     </Col>
-                    <Col className="footer-section-1" span={3}>
+                    <Col className="footer-section" span={3}>
                         <p>Terms Of Service</p>
                         <p>Privacy Policy</p>
                         <p>Accessibility</p>
@@ -59,7 +59,7 @@ class Footer extends React.Component {
                 <br/>
                <Row className="footer-credits" >
                
-               <Col className="footer-section-1" span={24}>
+               <Col span={24}>
                <center><p>© 2020 index.</p></center>
                     </Col>
                </Row>
