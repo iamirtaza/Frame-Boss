@@ -26,3 +26,8 @@ code {
   font-family: 'LatoNormal';
   src: local('MyFont'), url(./Fonts/Lato-Light.ttf) format('woff');
 }
+
+@font-face {
+  font-family: 'LatoMedium';
+  src: local('MyFont'), url(./Fonts/Lato-Medium.ttf) format('woff');
+}

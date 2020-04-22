@@ -184,7 +184,7 @@ width: 110px;
 }
 
 .section-1{
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .section-1 h1{
@@ -209,7 +209,350 @@ padding-left: 10px;
 font-size: 13px;
 }
 
-.section-1 Button{
+.section-1 .social-text{
+  transform: rotate(90deg);
+  float: right;
+  margin-top: 50px;
+  text-transform: uppercase;
+  border: none;
+  color: #9D9D9D;
+  letter-spacing: 2.25px;
+  font-size: 10px;
+  font-family: 'LatoMedium';
+}
+
+.section-2{
+  margin-top: 8%;
+}
+
+.section-heading{
+  line-height: 10px;
+}
+
+.section-heading h2{
+  font-size: 25px;
+  font-family: 'LatoMedium';
+  text-align: center;
+  letter-spacing: 1.9px;
+  color: #112D46;
+  text-transform: capitalize;
+}
+
+.section-heading img{
+  width: 14%;
+}
+
+.section-heading p{
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #605E5E;
+  font-size: 15px;
+  font-family: 'LatoNormal';
+  margin-top: 10px ;
+}
+
+.frame{
+  background-color: #F9F9F9;
+  padding: 10px;
+  width: 90%;
+  height: 200px;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  position: relative;
+}
+
+.frame img{
+  height: 180px;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.frame:hover img {
+  opacity: 0.6;
+}
+
+.frame:hover .middle {
+  opacity: 1;
+}
+
+.middle{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000A3;
+}
+
+.frame Button{
+  background-color: #112D46;
+  border: none;
+  color: #bfc6cc;
+  font-size: 11px;
+  height: 45px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: 'LatoSemiBold';
+  margin-top: 50%;
+}
+
+.frame Button:hover{
+  background-color: #112D46;
+  border: none;
+  color: #bfc6cc;
+}
+
+.frameName{
+font-family: 'LatoSemiBold'; 
+letter-spacing: 1.71px;
+color: #112D46;
+text-transform: capitalize;
+opacity: 1;
+margin-top: 12px;
+font-size: 11px;
+}
+
+.section-3, .section-4, .section-5, .section-6{
+  margin-top: 5%;
+}
+
+.img-hover-zoom {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 470px;
+  width: 95%;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  height: 470px;
+  width: 100%;
+  -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+    vertical-align: middle;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  -webkit-transform:scale(1.2); /* Safari and Chrome */
+  -moz-transform:scale(1.2); /* Firefox */
+  -ms-transform:scale(1.2); /* IE 9 */
+  -o-transform:scale(1.2); /* Opera */
+  transform:scale(1.2);
+}
+
+.img-hover-zoom .overlay{
+position: absolute;
+top: 38px;
+border: 1px solid white;
+height: 82%;
+width: 90%;
+padding: 11px;
+left: 20px;
+opacity: 0;
+}
+.img-hover-zoom:hover .overlay {
+opacity: 1;
+}
+/* .section-3 .left-image{
+  height: 520px;
+  width: 95%;
+} */
+
+
+.section3-frame{
+  background-color: #F9F9F9;
+  padding: 10px;
+  width: 90%;
+  height: 200px;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  position: relative;
+}
+
+.section3-frame img{
+  height: 180px;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.section3-frame:hover .section3-overlay {
+  opacity: 1;
+}
+
+.section3-overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.heart{
+  position: absolute;
+  right: 10px;
+  opacity: 0.7;
+}
+
+.section3-frame Button{
+  background-color: #112D46;
+  border: none;
+  color: #bfc6cc;
+  font-size: 10px;
+  width: 100%;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: 'LatoSemiBold';
+  margin-top: 100%;
+}
+
+.section3-frame Button:hover{
+  background-color: #112D46;
+  border: none;
+  color: #bfc6cc;
+}
+
+.frameName{
+font-family: 'LatoSemiBold'; 
+letter-spacing: 1.71px;
+color: #112D46;
+text-transform: capitalize;
+opacity: 1;
+margin-top: 12px;
+font-size: 11px;
+}
+
+.section-4 .leftImage{
+height: 450px;
+width: 95%;
+}
+
+.section-4 .top-image {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 220px;
+  width: 90%;
+}
+
+.section-4 .top-image img{
+  height: 220px;
+  width: 100%;
+  -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    vertical-align: middle;
+}
+
+.section-4 .top-image:hover img {
+  -webkit-transform:scale(1.6); /* Safari and Chrome */
+  -moz-transform:scale(1.6); /* Firefox */
+  -ms-transform:scale(1.6); /* IE 9 */
+  -o-transform:scale(1.6); /* Opera */
+  transform:scale(1.6);
+}
+
+.bottom-image {
+  margin-top: 5px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 240px;
+  width: 95%;
+}
+
+/* [2] Transition property for smooth transformation of images */
+.bottom-image img {
+  height: 240px;
+  width: 100%;
+  -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    vertical-align: middle;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.bottom-image:hover img {
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:scale(1.1); /* Opera */
+  transform:scale(1.1);
+}
+
+.bottom-image .overlay{
+position: absolute;
+top: 25px;
+border: 1px solid white;
+height: 82%;
+width: 90%;
+padding: 11px;
+left: 20px;
+opacity: 0;
+}
+
+.bottom-image:hover .overlay {
+opacity: 1;
+}
+
+.section-5 h2{
+font-family: 'LatoBold';
+letter-spacing: 3.14px;
+color: #112D46;
+text-transform: capitalize;
+opacity: 1;
+font-size: 25px;
+}
+
+.section-5 p{
+font-family: 'LatoNormal';
+letter-spacing: 0.14px;
+color: #707070;
+opacity: 0.83;
+font-size: 15px;
+width: 72%;
+}
+
+.whyChooseUs p{
+  font-family: 'LatoNormal';
+  letter-spacing: 0.25px;
+  color: #112D46;
+  text-transform: capitalize;
+  font-weight:600;
+  font-size: 13px;
+}
+
+.whyChooseUs .subText{
+  margin-top: 6px;
+  font-family: 'LatoNormal';
+  letter-spacing: 0.22px;
+  color: #605E5E;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+.startFramingButton Button{
   border: 1px solid #112d46;
   border-radius:27px;
   letter-spacing: 2.13px;
@@ -221,8 +564,28 @@ font-size: 13px;
   font-family: 'LatoSemiBold';
 }
 
-.section-1 Button:hover{
-background-color: #112d46;
-border: 1px solid #112d46;
-color: white;
-}
+.startFramingButton Button:hover{
+  background-color: #112d46;
+  border: 1px solid #112d46;
+  color: white;
+  }
+
+  .parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 300px;
+  }
+  .image2 {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    height: 300px;
+  }
+
+  
