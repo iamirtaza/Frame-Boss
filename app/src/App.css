@@ -133,6 +133,9 @@ opacity: 1;
   margin-left: 20px;
 }
 
+.footer-section a {
+  color: #605E5E;
+}
 .get-inspiration{
  display: flex;
  font-family: 'LatoNormal';
@@ -239,7 +242,7 @@ font-size: 14px;
 }
 
 .section-heading img{
-  width: 14%;
+  width: 15%;
 }
 
 .section-heading p{
@@ -649,5 +652,17 @@ font-size: 12px;
       letter-spacing: 2px;
       font-family: 'LatoBold';
       text-transform: uppercase;
+    }
+
+    .section-heading{
+      line-height: 30px;
+    }
+
+    .section-heading p {
+      width: 100%;
+    }
+
+    .section-heading img{
+      width: 35%;
     }
   }
