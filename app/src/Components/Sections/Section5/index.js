@@ -18,19 +18,19 @@ class Section5 extends React.Component {
     render() {
         return (
             <Row className="container section-5" >
-                <Col span={14}>
+                <Col lg={14} md={24} xs={24} sm={24}>
                     <h2>Why choose us</h2>
-                    <p>
+                     <p>
                         Our countless frame types are loved by global frame lovers, due to the variety, quality yet simplicity.
-                  </p>
+                     </p>
                     <Row>
-                        <Col span={12} >
+                        <Col lg={12} md={12} xs={24} sm={24} >
                             <WhyChooseUs
                                 icon={icon1}
                                 heading={"Free Shipping"}
                                 subText={"you're here to buy art, not cardboard boxes."} />
                         </Col>
-                        <Col span={12}>
+                        <Col lg={12} md={12} xs={24} sm={24}>
                             <WhyChooseUs
                                 icon={icon2}
                                 heading={"Free Design Advice"}
@@ -39,13 +39,13 @@ class Section5 extends React.Component {
                     </Row>
                     <br />
                     <Row>
-                        <Col span={12} >
+                        <Col lg={12} md={12} xs={24} sm={24} >
                             <WhyChooseUs
                                 icon={icon3}
                                 heading={"Everyday Low Price"}
                                 subText={"you're here to buy art, not cardboard boxes."} />
                         </Col>
-                        <Col span={12}>
+                        <Col lg={12} md={12} xs={24} sm={24}>
                             <WhyChooseUs
                                 icon={icon4}
                                 heading={"Free Returns"}
@@ -54,7 +54,7 @@ class Section5 extends React.Component {
                     </Row>
                     <StartFramingButton text={"Start Framing"} />
                 </Col>
-                <Col span={10}>
+                <Col lg={10} md={0} xs={0} sm={0}>
                     <div class="parent">
                         <img class="image1" src={require('../../../Assets/Icons/back-frame.svg')} />
                         <img class="image2" src={require('../../../Assets/Images/frame-front.png')} />

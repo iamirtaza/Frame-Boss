@@ -1,7 +1,6 @@
 
 import React from 'react';
-import { Row, Col, Menu, Button } from 'antd'
-import { DownOutlined } from '@ant-design/icons';
+import { Row, Col, Button } from 'antd'
 import SectionHeading from '../SectionHeading'
 import img1 from '../../../Assets/Images/section2-img1.png'
 import img2 from '../../../Assets/Images/section2-img2.png'
@@ -17,27 +16,27 @@ class Section2 extends React.Component {
         this.state = {
             frameData: [
                 {
-                    name:'Original Art',
+                    name: 'Original Art',
                     src: img1
                 },
                 {
-                    name:'Object',
+                    name: 'Object',
                     src: img2
                 },
                 {
-                    name:'Textile',
+                    name: 'Textile',
                     src: img3
                 },
                 {
-                    name:'Jersey',
+                    name: 'Jersey',
                     src: img4
                 },
                 {
-                    name:'photography',
+                    name: 'photography',
                     src: img5
                 },
                 {
-                    name:'Something esle',
+                    name: 'Something esle',
                     src: img6
                 }
             ]
@@ -46,21 +45,23 @@ class Section2 extends React.Component {
     render() {
         return (
             <div className="section-2 container">
-                <SectionHeading headingName={"What Are You Framing?"} subText={"Design a custom frame for photos, art, and more."} />
+                <SectionHeading
+                    headingName={"What Are You Framing?"}
+                    subText={"Design a custom frame for photos, art, and more."} />
                 <Row>
-                   {
-                       this.state.frameData.map(item=>{
-                           return  <Col span={4} >
-                           <div className="frame" >
-                               <center><img src={item.src} /></center>
-                               <div class="middle">
-                                   <Button>Frame <br/>Now</Button>
-                               </div>
-                           </div>
-                          <p className="frameName" >{item.name}</p>
-                       </Col>
-                       })
-                   }
+                    {
+                        this.state.frameData.map(item => {
+                            return <Col xl={4} lg={4} md={8} sm={8} xs={12} >
+                                <div className="frame" >
+                                    <center><img src={item.src} /></center>
+                                    <div class="middle">
+                                        <Button>Frame <br />Now</Button>
+                                    </div>
+                                </div>
+                                <p className="frameName" >{item.name}</p>
+                            </Col>
+                        })
+                    }
                 </Row>
             </div>
         )

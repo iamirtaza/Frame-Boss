@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Row, Col, Menu, Button } from 'antd'
+import { Row, Col } from 'antd'
 import 'antd/dist/antd.css';
 
 class WhyChooseUs extends React.Component {

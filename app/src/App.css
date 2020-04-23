@@ -57,9 +57,6 @@ margin-top: 15px;
   margin-top: 22px;
 }
 
-.ant-dropdown-menu{
-  background-color: red;
-}
 
 .main-menu a{
   margin-left: 30px;
@@ -98,6 +95,7 @@ margin-top: 15px;
 }
 
 .footer{
+  margin-top: 100px;
   position: relative;
   width: 100%;
   bottom: 0;
@@ -119,10 +117,12 @@ margin-top: 15px;
   margin-top: 30px;
 font-family: 'LatoSemiBold';
 letter-spacing: 2.5px;
-font-size: 10px;
+font-size: 12px;
 color: #605E5E;
 opacity: 1;
 }
+
+
 
 .footer-section .social-icon-facebook{
   height: 15px;
@@ -193,7 +193,7 @@ letter-spacing: 3.48px;
 color: #112D46;
 text-transform: uppercase;
 opacity: 1;
-font-size: 30px;
+font-size: 35px;
 margin-top: 80px;
 }
 
@@ -205,14 +205,14 @@ opacity: 1;
 font-family: 'LatoNormal';
 width: 60%;
 border-left: 3px solid #112d46;
-padding-left: 10px;
-font-size: 13px;
+padding-left: 20px;
+font-size: 14px;
 }
 
 .section-1 .social-text{
   transform: rotate(90deg);
   float: right;
-  margin-top: 50px;
+  margin-top: 60px;
   text-transform: uppercase;
   border: none;
   color: #9D9D9D;
@@ -230,7 +230,7 @@ font-size: 13px;
 }
 
 .section-heading h2{
-  font-size: 25px;
+  font-size: 26px;
   font-family: 'LatoMedium';
   text-align: center;
   letter-spacing: 1.9px;
@@ -243,26 +243,27 @@ font-size: 13px;
 }
 
 .section-heading p{
-  text-align: center;
   letter-spacing: 0.15px;
   color: #605E5E;
-  font-size: 15px;
+  font-size: 16px;
   font-family: 'LatoNormal';
   margin-top: 10px ;
+  width: 45%;
+  line-height: 20px;
 }
 
 .frame{
   background-color: #F9F9F9;
   padding: 10px;
   width: 90%;
-  height: 200px;
+  height: auto;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
   position: relative;
 }
 
 .frame img{
-  height: 180px;
+  height: auto;
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -302,7 +303,7 @@ font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
   font-family: 'LatoSemiBold';
-  margin-top: 50%;
+  margin-top: 60%;
 }
 
 .frame Button:hover{
@@ -321,7 +322,7 @@ margin-top: 12px;
 font-size: 11px;
 }
 
-.section-3, .section-4, .section-5, .section-6{
+.section-3, .section-4, .section-5, .section-6, .section-7{
   margin-top: 5%;
 }
 
@@ -329,13 +330,13 @@ font-size: 11px;
   position: relative;
   display: inline-block;
   overflow: hidden;
-  height: 470px;
+  height: auto;
   width: 95%;
 }
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
-  height: 470px;
+  height: auto;
   width: 100%;
   -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
@@ -377,14 +378,14 @@ opacity: 1;
   background-color: #F9F9F9;
   padding: 10px;
   width: 90%;
-  height: 200px;
+  height: auto;
   box-shadow: 0px 3px 6px #00000029;
   opacity: 1;
   position: relative;
 }
 
 .section3-frame img{
-  height: 180px;
+  height: auto;
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -448,12 +449,12 @@ width: 95%;
   position: relative;
   display: inline-block;
   overflow: hidden;
-  height: 220px;
+  height: auto;
   width: 90%;
 }
 
 .section-4 .top-image img{
-  height: 220px;
+  height: auto;
   width: 100%;
   -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -472,17 +473,17 @@ width: 95%;
 }
 
 .bottom-image {
-  margin-top: 5px;
+  margin-top: 3%;
   position: relative;
   display: inline-block;
   overflow: hidden;
-  height: 240px;
+  height: auto;
   width: 95%;
 }
 
 /* [2] Transition property for smooth transformation of images */
 .bottom-image img {
-  height: 240px;
+  height: auto;
   width: 100%;
   -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
@@ -522,7 +523,7 @@ letter-spacing: 3.14px;
 color: #112D46;
 text-transform: capitalize;
 opacity: 1;
-font-size: 25px;
+font-size: 28px;
 }
 
 .section-5 p{
@@ -530,7 +531,7 @@ font-family: 'LatoNormal';
 letter-spacing: 0.14px;
 color: #707070;
 opacity: 0.83;
-font-size: 15px;
+font-size: 16px;
 width: 72%;
 }
 
@@ -540,7 +541,7 @@ width: 72%;
   color: #112D46;
   text-transform: capitalize;
   font-weight:600;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .whyChooseUs .subText{
@@ -548,7 +549,7 @@ width: 72%;
   font-family: 'LatoNormal';
   letter-spacing: 0.22px;
   color: #605E5E;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 300;
 }
 
@@ -559,12 +560,25 @@ width: 72%;
   color: #112d46;
   text-transform: uppercase;
   opacity: 1;
-  font-size: 10px;
-  width: 170px;
+  font-size: 11px;
+  width: 180px;
   font-family: 'LatoSemiBold';
 }
 
-.startFramingButton Button:hover{
+.ReadMore Button{
+  
+  border: 1px solid #112d46;
+  border-radius:27px;
+  letter-spacing: 2.13px;
+  color: #112d46;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 10px;
+  width: 130px;
+  font-family: 'LatoSemiBold';
+}
+
+.startFramingButton Button:hover, .ReadMore button:hover{
   background-color: #112d46;
   border: 1px solid #112d46;
   color: white;
@@ -573,7 +587,7 @@ width: 72%;
   .parent {
     position: relative;
     top: 0;
-    left: 0;
+    left: 10%;
   }
   .image1 {
     position: relative;
@@ -581,6 +595,7 @@ width: 72%;
     left: 0;
     height: 300px;
   }
+
   .image2 {
     position: absolute;
     top: 35px;
@@ -588,4 +603,51 @@ width: 72%;
     height: 300px;
   }
 
+  .blog img{
+    width: 220px;
+    height: 190px;
+  }
+
+  .blog-category{
+    letter-spacing: 0.2px;
+    color: #605E5E;
+    text-transform: capitalize;
+    opacity: 1;
+    font-family: 'LatoNormal';
+    font-size: 12px;
+    width: 90%;
+  }
+
+  .blog-title{
+letter-spacing: 0.04px;
+color: #112D46;
+text-transform: capitalize;
+opacity: 1;
+font-family: 'LatoSemiBold';
+font-size: 12px;
+  }
   
+  @media screen and (max-width: 980px) {
+    .section-2{
+     margin-top: 150px;
+    }
+    .section-3, .section-4, .section-5, .section-6, .section-7 {
+      margin-top: 100px;
+    }
+    .client-review, .blog{
+      margin-top: 50px;
+    }
+    .main-menu {
+      text-align: left;
+      margin-top: 5px;
+    }
+    
+    
+    .main-menu a{
+      color: #707070;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-family: 'LatoBold';
+      text-transform: uppercase;
+    }
+  }

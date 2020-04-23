@@ -46,20 +46,22 @@ class Section3 extends React.Component {
     render() {
         return (
             <div className="section-3 container">
-                <SectionHeading headingName={"Feature Product"} subText={"Design a custom frame for photos, art, and more."} />
+                <SectionHeading
+                headingName={"Feature Product"}
+                subText={"Design a custom frame for photos, art, and more."} />
                 <Row style={{ marginTop: '20px' }}>
-                    <Col span={10}>
+                    <Col lg={12} md={12} xs={24} sm={24}>
                         <div className="img-hover-zoom" >
                             <center><img src={require('../../../Assets/Images/section1-img.png')} /></center>
                             <div className="overlay" >
                             </div>
                         </div>
                     </Col>
-                    <Col span={12} >
+                    <Col lg={12} md={12} xs={24} sm={24} >
                         <Row>
                             {
                                 this.state.frameData.map((item, index) => {
-                                    return <Col span={8} >
+                                    return <Col lg={8} md={12} xs={12} sm={8} >
                                         <div className="section3-frame" >
                                             <center><img src={item.src} /></center>
                                             <div class="section3-overlay">

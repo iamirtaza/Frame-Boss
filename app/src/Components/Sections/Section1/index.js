@@ -11,16 +11,24 @@ class Section1 extends React.Component {
         return (
             <div className="section-1">
                 <Row className="container" >
-                    <Col span={12}>
-                        <img style={{ height: '430px' }} src={Background} />
+                    <Col xl={12} lg={12} md={0} sm={0} xs={0}>
+                        <img 
+                        style=
+                        {{
+                             height: '430px', width: '90%' 
+                        }}
+                        src={Background} />
                     </Col>
-                    <Col span={12}>
+
+                    <Col xl={12} lg={12} md={24} sm={24} xs={24}>
                         <h1>A New Approach to <br /> Custom Frame</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
-                        <p className="social-text" >Facebook&nbsp;&nbsp;&nbsp;Instagram&nbsp;&nbsp;&nbsp;Twitter</p>
-                       <StartFramingButton text={"Start Framing"}/>
+                        <p className="social-text" >
+                            Facebook&nbsp;&nbsp;&nbsp;Instagram&nbsp;&nbsp;&nbsp;Twitter
+                        </p>
+                        <StartFramingButton text={"Start Framing"} />
                     </Col>
                 </Row>
             </div>

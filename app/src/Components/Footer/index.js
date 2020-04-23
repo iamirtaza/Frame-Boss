@@ -11,7 +11,7 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <Row className="footer-container">
-                    <Col className="footer-section" span={8}>
+                    <Col className="footer-section" lg={8} md={8} xs={24} sm={24}>
                         <p>Get The App</p>
                         <p>Follow Us</p>
                         <div >
@@ -26,30 +26,30 @@ class Footer extends React.Component {
                         <Button>Submit</Button>
                         </div>
                     </Col>
-                    <Col className="footer-section" span={3}>
+                    <Col className="footer-section" lg={3} md={6} xs={12} sm={12}>
                         <p>How It Works</p>
                         <p>Press</p>
                         <p>For Art & Trade</p>
                         <p>The Shop</p>
                     </Col>
-                    <Col className="footer-section" span={3}>
+                    <Col className="footer-section" lg={3} md={6} xs={12} sm={12}>
                         <p>FAQ</p>
                         <p>For Buisness</p>
                         <p>Company</p>
                         <p>Careers</p>
                     </Col>
-                    <Col className="footer-section" span={3}>
+                    <Col className="footer-section" lg={3} md={4} xs={12} sm={12}>
                         <p>Stores</p>
                         <p>Pricing</p>
                         <p>Reviews</p>
                         <p>Design Services</p>
                     </Col>
-                    <Col className="footer-section" span={3}>
+                    <Col className="footer-section" lg={3} md={6} xs={12} sm={12}>
                         <p>About Us</p>
                         <p>Gift Card</p>
                         <p>Contact Us</p>
                     </Col>
-                    <Col className="footer-section" span={3}>
+                    <Col className="footer-section" lg={3} md={6} xs={12} sm={12}>
                         <p>Terms Of Service</p>
                         <p>Privacy Policy</p>
                         <p>Accessibility</p>
